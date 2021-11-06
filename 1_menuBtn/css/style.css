@@ -1,0 +1,42 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li, ol, ul {
+  list-style: none;
+}
+
+h1 {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+#gnb {
+  border: 1px solid blue;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gnb li {
+  width: 100px;
+  height: 50px;
+  background: #fff;
+}
+#gnb li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #555;
+  text-align: center;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
