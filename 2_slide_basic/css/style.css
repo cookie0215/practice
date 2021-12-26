@@ -1,0 +1,97 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li, ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: peachpuff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .slider {
+  width: 500%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .slider li {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold 50px/1 "arial";
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+}
+section .slider li:nth-of-type(1) {
+  background: tomato;
+}
+section .slider li:nth-of-type(2) {
+  background: plum;
+}
+section .slider li:nth-of-type(3) {
+  background: orange;
+}
+section .slider li:nth-of-type(4) {
+  background: powderblue;
+}
+section .slider li:nth-of-type(5) {
+  background: yellowgreen;
+}
+section .indicators {
+  border: 1px solid blue;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+section .indicators li:not(:nth-of-type(1)) {
+  margin-left: 10px;
+}
+section .arrowBtns {
+  border: 1px solid red;
+  width: 100%;
+  height: 60px;
+  padding: 0 40px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .arrowBtns li i {
+  font-size: 40px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
