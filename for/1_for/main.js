@@ -13,3 +13,6 @@ for(let i = arr.length - 1; i >= 0; i--) {
 
 console.log(newArr);
 // ['요', '세', '하', '녕', '안']
+
+console.log(newArr.join(""));
+// 요세하녕안
