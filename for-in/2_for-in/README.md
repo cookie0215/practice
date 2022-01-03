@@ -16,22 +16,6 @@ const todoList = [
   { work: "필라테스 수업가기", finish: false },
   { work: "태권도 가기", finish: false }
 ]
-
-const total = todoList.length;
-// console.log(total);
-
-let finishCount = 0;
-
-for(let i in todoList){
-  // console.log( todoList[i] );
-
-  if( todoList[i].finish === true) {
-    finishCount++;
-  }
-}
-
-const per = Math.round(finishCount / total * 100);
-console.log(`완료한 갯수 : ${finishCount} , 달성률 : ${per} %`);
 ```
 
 <br>
